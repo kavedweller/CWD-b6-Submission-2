@@ -78,3 +78,41 @@ img {
     width: 100%;
     object-fit: contain;
 }
+
+/* Tablet device stysheet verrides */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    .header-container {
+        max-width: 734px;
+        height: 398px;
+    }
+
+    .header-text-section {}
+
+    .header-text-container {
+        max-width: 316px;
+        max-height: 276px;
+        /* padding: 61px 0px 61px 76px; */
+
+    }
+
+    .header-text-headline {
+
+        font-size: 40px;
+        line-height: 50px;
+        /* max-height: 240px; */
+        height: 100px;
+    }
+
+    .header-text-normal {
+        font-size: 14px;
+        line-height: 24px;
+        max-height: 65px;
+    }
+
+    .watch-button {
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+}

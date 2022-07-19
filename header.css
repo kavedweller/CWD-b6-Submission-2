@@ -116,3 +116,75 @@ img {
         font-size: 15px;
     }
 }
+
+/* Mobile device stysheet moverrides */
+
+@media screen and (max-width: 576px) {
+
+    .header-container {
+        /* display: flex; */
+        flex-direction: column;
+        max-width: 334px;
+        height: 472px;
+        background-color: black;
+        border-radius: 16px;
+        margin: auto;
+    }
+
+    .header-text-section {
+        height: 50%;
+        padding: 0%;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .header-text-container {
+        max-width: 228px;
+        /* max-height: 66px; */
+        padding: 1% 1%;
+    }
+
+    .header-text-headline {
+        color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        padding-top: 8%;
+    }
+
+    .header-text-normal {
+        color: rgba(255, 255, 255, 0.8);
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        max-height: 48px;
+        /* max-width: 150px; */
+        text-align: center;
+        padding-top: 8%;
+        overflow: hidden;
+        /* white-space: nowrap; */
+        text-overflow: ellipsis;
+    }
+
+    .button-container {
+        padding-top: 8%;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .watch-button {
+        padding: 10px 24px;
+        font-size: 14px;
+    }
+
+    .header-image-container {
+        height: 50%;
+        width: 100%;
+        justify-content: center;
+    }
+}

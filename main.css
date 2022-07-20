@@ -61,6 +61,11 @@
     flex-grow: 1;
 }
 
+.tablet-button {
+    display: block;
+    visibility: hidden;
+}
+
 footer-container {
     display: flex;
     height: 250px;

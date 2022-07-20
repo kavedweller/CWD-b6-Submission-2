@@ -67,6 +67,34 @@
     cursor: pointer;
 }
 
+/* button animation start */
+.watch-button:hover {
+    /* animation: watchnow 4s linear 0.2s infinite both both; */
+    animation-name: watchnow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes watchnow {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: salmon;
+    }
+
+    50% {
+        background-color: blueviolet;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+
 /* top image on header right  */
 .header-image-container {
     border: 1px solid red;
@@ -78,6 +106,11 @@ img {
     height: 100%;
     width: 100%;
     object-fit: contain;
+}
+
+/* animation: :hover */
+.header-container:hover {
+    cursor: url(assets/favicon.png), auto;
 }
 
 /* Tablet device stysheet verrides */

@@ -9,3 +9,107 @@
     column-gap: 17px;
     row-gap: 24px;
 }
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .cards {
+        padding-left: 30px;
+        padding-right: 30px;
+        grid-template-columns: repeat(2, 312px);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cards {
+        padding-left: 20px;
+        padding-right: 20px;
+        grid-template-columns: 312px;
+        row-gap: 16px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    /* background-color: blue; */
+    max-width: 312px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-content-top-img {
+    height: 175px;
+}
+
+.card-action-button-container {
+    /* background-color: brown; */
+    border-left: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+    padding: 20px 0 0 5%;
+}
+
+.card-action-button {
+    /* background-color: rgb(255, 89, 89); */
+    /* justify-content: center;
+    align-items: center; */
+    padding: 5px 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #161616;
+    font-weight: 700;
+    border: 0.125em solid #161616;
+    border-radius: 0.5em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card-content-texts {
+    /* background-color: beige; */
+    padding: 0% 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 312px;
+    height: 175px;
+    font-size: 18px;
+    color: #161616;
+    height: 80px;
+    word-wrap: break-word;
+    border-left: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+}
+
+.card-content-status-bar {
+    display: flex;
+    flex-direction: row;
+    border-left: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+    border-radius: 0 0 8px 8px;
+    height: 50px;
+}
+
+.age {
+    padding: 20px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: flex-start; */
+}
+
+.comments {
+    padding: 20px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    gap: 10px;
+}
+
+.status-text {
+    font-weight: 500;
+    color: #161616;
+}

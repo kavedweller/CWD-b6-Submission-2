@@ -1,0 +1,97 @@
+.footer-container {
+    display: flex;
+    height: 250px;
+    background-color: #161616;
+    width: 100%;
+}
+
+.footer-container div {
+    flex: 1;
+}
+
+.footer-board {
+    margin-top: 20px;
+    background-color: #161616;
+    height: 250px;
+}
+
+.footer-main {
+    margin: auto;
+    width: 80%;
+    height: 50%;
+    background-color: #161616;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: whitesmoke;
+    font-weight: 600;
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+}
+
+.footer-links {
+    padding-top: 2%;
+    width: 80%;
+    background-color: #161616;
+    margin: auto;
+    justify-content: space-evenly;
+    /* align-items: stretch; */
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: whitesmoke;
+    font-weight: 400;
+    flex-wrap: wrap;
+    column-gap: 28px;
+    padding-bottom: 2%;
+    /* border-bottom: 1px solid gray; */
+}
+
+.social-links {
+    background-color: #161616;
+    line-height: 80px;
+    text-decoration: none;
+    margin: auto;
+    color: whitesmoke;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 28px;
+    align-items: center;
+    padding: 0% 2%;
+    gap: 80px;
+}
+
+.social-links>a {
+    color: whitesmoke;
+}
+
+/* tablet device stylesheet overrides */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    .footer-links {
+        row-gap: 20px;
+    }
+}
+
+/* mobile device stylesheet overrrides */
+@media screen and (max-width: 576px) {
+
+    .footer-main {
+        height: 25%;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 8px;
+    }
+
+    .social-links {
+        padding: 0 2%;
+    }
+
+}

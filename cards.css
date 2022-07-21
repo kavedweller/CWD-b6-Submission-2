@@ -6,30 +6,11 @@
     row-gap: 24px;
 }
 
-@media screen and (min-width: 577px) and (max-width: 992px) {
-    .cards {
-        padding-left: 30px;
-        padding-right: 30px;
-        grid-template-columns: repeat(2, 312px);
-        column-gap: 20px;
-        row-gap: 20px;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .cards {
-        padding-left: 20px;
-        padding-right: 20px;
-        grid-template-columns: 312px;
-        row-gap: 16px;
-    }
-}
-
 .container {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     max-width: 312px;
     font-family: 'Poppins', sans-serif;
 }
@@ -46,9 +27,6 @@
 }
 
 .card-action-button {
-    /* background-color: rgb(255, 89, 89); */
-    /* justify-content: center;
-    align-items: center; */
     padding: 5px 20px;
     font-family: 'Poppins', sans-serif;
     color: #161616;
@@ -107,4 +85,23 @@
 .status-text {
     font-weight: 500;
     color: #161616;
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .cards {
+        padding-left: 30px;
+        padding-right: 30px;
+        grid-template-columns: repeat(2, 312px);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cards {
+        padding-left: 20px;
+        padding-right: 20px;
+        grid-template-columns: 312px;
+        row-gap: 16px;
+    }
 }

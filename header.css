@@ -8,8 +8,6 @@
     height: 646px;
     background-color: black;
     justify-content: center;
-    margin-top: 1%;
-    margin-bottom: 5%;
 }
 
 .header-text-section {
@@ -70,7 +68,6 @@
 
 /* button animation start */
 .watch-button:hover {
-    /* animation: watchnow 4s linear 0.2s infinite both both; */
     animation-name: watchnow;
     animation-duration: 4s;
     animation-iteration-count: infinite;

@@ -8,6 +8,7 @@
     height: 646px;
     background-color: black;
     justify-content: center;
+    margin-top: 1%;
     margin-bottom: 5%;
 }
 
@@ -94,18 +95,16 @@
     }
 }
 
-
 /* top image on header right  */
 .header-image-container {
-    border: 1px solid red;
     display: flex;
     width: 50%;
 }
 
-img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.header-image {
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
 }
 
 /* animation: :hover */
@@ -220,5 +219,9 @@ img {
         height: 50%;
         width: 100%;
         justify-content: center;
+    }
+
+    .header-image {
+        margin-top: 0;
     }
 }

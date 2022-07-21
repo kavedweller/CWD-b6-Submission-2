@@ -1,8 +1,4 @@
 .cards {
-    /* display: flex;
-    flex-wrap: wrap;
-    gap: 17px;
-    justify-content: center; */
     display: grid;
     grid-template-columns: repeat(3, 312px);
     justify-content: center;
@@ -34,7 +30,6 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
-    /* background-color: blue; */
     max-width: 312px;
     font-family: 'Poppins', sans-serif;
 }

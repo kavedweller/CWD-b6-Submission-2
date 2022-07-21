@@ -1,6 +1,6 @@
 @import url(styles.css);
 @import url(header.css);
-@import url(cards.css);
+@import url(fixture-card.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    padding-bottom: 10%;
 }
 
 .sidebar {
@@ -60,12 +61,7 @@
 }
 
 .card-board {
-    flex-grow: 1;
-}
-
-.tablet-button {
-    display: block;
-    visibility: hidden;
+    /* flex-grow: 1; */
 }
 
 footer-container {
@@ -203,7 +199,6 @@ footer-container {
         margin: auto;
         width: 210px;
         height: 150px;
-        /* flex-direction: row; */
         background-color: transparent;
         border-radius: 0;
         /* row-gap: 16px; */
@@ -243,5 +238,4 @@ footer-container {
         align-items: center;
         row-gap: 8px;
     }
-
 }
